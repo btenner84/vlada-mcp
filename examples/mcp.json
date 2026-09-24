@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vlada": {
+      "type": "http",
+      "url": "https://mcp.vladahealth.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${VLADA_API_KEY}"
+      }
+    }
+  }
+}
