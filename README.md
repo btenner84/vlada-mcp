@@ -22,6 +22,11 @@ claude mcp add --transport http vlada https://mcp.vladahealth.com/mcp --header "
 
 Cursor, VS Code, or any client that reads an `mcp.json`: see `examples/mcp.json`.
 
+One-click install:
+
+[![Install in Cursor](https://img.shields.io/badge/Cursor-install-000000?logo=cursor)](cursor://anysphere.cursor-deeplink/mcp/install?name=vlada&config=eyJ1cmwiOiAiaHR0cHM6Ly9tY3AudmxhZGFoZWFsdGguY29tL21jcCIsICJoZWFkZXJzIjogeyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAke1ZMQURBX0FQSV9LRVl9In19) [![Install in VS Code](https://img.shields.io/badge/VS_Code-install-0098FF?logo=visualstudiocode&logoColor=fff)](https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%20%22vlada%22%2C%20%22type%22%3A%20%22http%22%2C%20%22url%22%3A%20%22https%3A%2F%2Fmcp.vladahealth.com%2Fmcp%22%2C%20%22headers%22%3A%20%7B%22Authorization%22%3A%20%22Bearer%20%24%7Binput%3Avlada_key%7D%22%7D%2C%20%22inputs%22%3A%20%5B%7B%22id%22%3A%20%22vlada_key%22%2C%20%22type%22%3A%20%22promptString%22%2C%20%22description%22%3A%20%22Vlada%20API%20key%22%2C%20%22password%22%3A%20true%7D%5D%7D) [![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.btenner84%2Fvlada-2ea44f)](https://registry.modelcontextprotocol.io/v0/servers?search=vlada)
+
+
 ## What you can ask
 
 - Which payers pay a named hospital for CPT 70553, and how that compares with Medicare.
