@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.vladahealth/vlada",
+  "name": "io.github.btenner84/vlada",
   "title": "Vlada Health",
   "description": "US healthcare data for AI agents: prices, Medicare Advantage, Medicaid, providers, drugs. Receipted.",
   "version": "1.0.0",

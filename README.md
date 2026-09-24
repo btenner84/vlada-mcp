@@ -47,7 +47,7 @@ Not patient records, not a FHIR server, not an EHR connector. Public market, pri
 
 ## Registry manifests
 
-`server.json` is the official MCP registry manifest (remote, Streamable HTTP). `glama.json` claims the Glama listing.
+`server.json` is the official MCP registry manifest (remote, Streamable HTTP), published automatically by `.github/workflows/publish-mcp.yml` on every change. `glama.json` claims the Glama listing.
 
 ## Support
 
