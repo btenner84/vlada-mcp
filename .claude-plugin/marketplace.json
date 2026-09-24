@@ -1,0 +1,14 @@
+{
+  "name": "vlada",
+  "owner": {"name": "Vlada Health", "email": "ben@vladahealth.com", "url": "https://www.vladahealth.com"},
+  "metadata": {"description": "US healthcare data for Claude Code: hospital and payer prices, Medicare Advantage, Medicaid, providers, drugs, with receipts."},
+  "plugins": [
+    {
+      "name": "vlada",
+      "source": "./",
+      "description": "Connects Claude Code to the Vlada Health MCP server: measured US healthcare data with the source file, vintage and a replay hash on every answer.",
+      "category": "data",
+      "keywords": ["healthcare", "medicare", "medicaid", "price-transparency", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "vlada",
+  "version": "1.0.0",
+  "description": "US healthcare data for AI agents: hospital and payer prices, Medicare Advantage, Medicaid, providers, drugs. Every answer carries its source and a replay hash.",
+  "mcpServers": {
+    "vlada": {
+      "httpUrl": "https://mcp-secure.vladahealth.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

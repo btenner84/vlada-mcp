@@ -1,0 +1,10 @@
+{
+  "name": "vlada",
+  "description": "Connects Claude Code to the Vlada Health MCP server: measured US healthcare data (hospital and payer prices, Medicare Advantage, Medicaid, providers, drugs) with the source and a replay hash on every answer.",
+  "version": "1.0.0",
+  "author": {"name": "Vlada Health", "email": "ben@vladahealth.com", "url": "https://www.vladahealth.com"},
+  "homepage": "https://www.vladahealth.com/data-access",
+  "repository": "https://github.com/btenner84/vlada-mcp",
+  "license": "MIT",
+  "keywords": ["healthcare", "medicare", "medicaid", "price-transparency", "mcp"]
+}

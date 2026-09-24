@@ -1,3 +1,5 @@
+<img src="assets/logo-400.png" width="72" alt="Vlada">
+
 # Vlada MCP: US healthcare data for AI agents, with receipts
 
 Vlada Health serves the public record of US healthcare as typed tools on one remote MCP server and one REST API. Hospital and payer negotiated prices, Medicare fee-for-service payment, Medicare Advantage benefits, Star ratings and county enrollment, Part D, the ACA Marketplace, Medicaid managed-care enrollment, provider and facility identity, quality measures, and drug pricing. Every answer names its source file, its vintage, how the number was computed and its coverage, and carries a hash you can replay. A number the data cannot support comes back as "not in the data", never as zero.
@@ -18,6 +20,19 @@ Claude Code:
 
 ```bash
 claude mcp add --transport http vlada https://mcp.vladahealth.com/mcp --header "Authorization: Bearer $VLADA_API_KEY"
+```
+
+Gemini CLI:
+
+```bash
+gemini extensions install https://github.com/btenner84/vlada-mcp
+```
+
+Claude Code plugin (OAuth, no key to paste):
+
+```text
+/plugin marketplace add btenner84/vlada-mcp
+/plugin install vlada@vlada
 ```
 
 Cursor, VS Code, or any client that reads an `mcp.json`: see `examples/mcp.json`.
