@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vlada",
+  "version": "1.0.0",
+  "description": "US healthcare data for AI agents: hospital and payer negotiated prices, Medicare Advantage benefits, Stars and enrollment, Medicaid, providers and drugs. Every answer carries its source file, vintage and a replay hash.",
+  "author": {"name": "Vlada Health", "email": "ben@vladahealth.com", "url": "https://www.vladahealth.com"},
+  "homepage": "https://www.vladahealth.com/data-access",
+  "repository": "https://github.com/btenner84/vlada-mcp",
+  "license": "MIT",
+  "keywords": ["healthcare", "medicare", "medicaid", "price-transparency", "mcp"]
+}
